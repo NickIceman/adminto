@@ -25,7 +25,11 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  padding: 0px 16px 0px 16px;
+}
+
+.nav-link {
+  width: 160px;
+  max-width: 250px;
 }
 
 .menu-text {
