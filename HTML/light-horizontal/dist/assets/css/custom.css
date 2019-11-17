@@ -58,3 +58,68 @@
 .lang:hover {
   color: #56a9ff
 }
+
+.input-text {
+  margin-left: 150px;
+  padding-right: 16px;
+  width: 234px;
+}
+
+.club-id-select {
+  width: 202px;
+}
+
+.search-btn {
+  margin-left: 30px;
+}
+
+.wrapperFS {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.code-padding {
+  padding-left: 295px;
+}
+
+.wrapper0 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -75px;
+}
+
+.time-select {
+  width: 113px;
+  margin-top: -10px;
+}
+
+.span-text-black {
+  width: 41px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #323a46;
+}
+
+.span-text-red {
+  width: 102px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff5b5b;
+}
