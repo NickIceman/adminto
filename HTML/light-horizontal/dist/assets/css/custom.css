@@ -2,10 +2,6 @@
   font-family: Roboto;
   font-size: 28px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
 }
@@ -19,10 +15,6 @@
   font-family: Roboto;
   font-size: 17px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
 }
@@ -35,11 +27,6 @@
 .menu-text {
   font-family: Roboto;
   font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #6c757d;
 }
 
@@ -47,11 +34,6 @@
   display: block;
   font-family: Montserrat;
   font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #6c757d;
 }
 
@@ -104,10 +86,6 @@
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #323a46;
 }
 
@@ -117,9 +95,45 @@
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ff5b5b;
+}
+
+.custom-popover, .custom-popover:hover, .custom-popover:active, .custom-popover:focus, .custom-popover:target {
+  text-decoration: underline;
+  background-color: #ffffff;
+  color: #56a9ff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.popover-body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #323a46;
+}
+
+.table {
+  font-family: Roboto;
+  color: #323a46;
+  font-size: 14px;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.span-text-table {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ff5b5b;
+}
+
+[data-toggle="toggle"] {
+  display: none;
+}
+
+.table-inner {
+  padding-left: 10px;
 }
